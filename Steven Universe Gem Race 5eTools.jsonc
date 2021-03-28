@@ -1,0 +1,122 @@
+"_meta": {
+    "sources": [
+        {
+            "json": "GemRace",
+            "abbreviation": "GEMR",
+            "full": "Steven Universe Gem Adventures",
+            "authors": [
+                "Sharp-big.tumblr.com",
+                "Charlie Conte"
+            ],
+            "convertedBy": [
+                "The Jammy Emperor#8102"
+            ],
+            "version": "1.0.0",
+            "url": "https://thetrove.is/Books/%20Collections/Anime%20%26%20Cartoon%20RPGs/1%29%20Related%20to%20Specific%20Anime%20or%20Cartoon/Steven%20Universe/Steven%20Universe%20Gem%20Adventurers.pdf",
+            "targetSchema": "1.0.0"
+        }
+    ],
+    "dateAdded": 1616940918,
+    "dateLastModified": 1616940918
+},
+
+
+"race": [
+	{
+		"name": "Gem",
+		"source": "GEMR",
+		"page": "2",
+		"ability": [
+			{
+                "con": 2
+			}
+		],
+		"size": "M",
+		"speed": 30,
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Age",
+				"entries": [
+					"Gems do not age like other species. They emerge from the ground as fully developed adults and show no physical signs of aging as time passes."
+				]
+            },			
+            {
+				"type": "entries",
+				"name": "Alignment",
+				"entries": [
+					"Gems are expected to fall into line and dutifuly serve their purpose. As such, most gems have a lawful bent and feel no particular pull towards good or evil."
+				]
+            },			
+            {
+				"type": "entries",
+				"name": "Size",
+				"entries": [
+					"Gems come in a wide variety of sizes, from 4 to nearly 10 feet tall in any number of builds. Your size is Medium."
+				]
+            },			
+            {
+				"type": "entries",
+				"name": "Gem Rebirth",
+				"entries": [
+					"When you are reduced to 0 hit points, your physical form retreats into your gem. During this time you do not need to make any death saving throws, though attacks upon your gem will result in death saving throw failures as normal. You naturally stabilize after {@dice 4dl2} hours. Your physical body reforms after regaining at least one hit point."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Inorganic Nature",
+				"entries": [
+					"Even though you are not organic, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink you if wish. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. You can sleep if you wish."
+				]
+            },
+            {
+				"type": "entries",
+				"name": "Languages",
+				"entries": [
+                    "You can speak, read, and write Common"
+                ]
+			},
+            {
+				"type": "entries",
+				"name": "Subrace",
+				"entries": [
+                    "Gem abilities and proclivities are based upon their gemstone. Though hundreds of gemstones exist, they can as a whole be divided into three types: Soldier, Worker, and Aristocratic."
+                ]
+			}
+        ],
+        "languageProficiencies": [
+            {
+                "common": true
+            }
+        ],
+        "fluff": {
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Background",
+                    "entries": [
+                        "Gems are a people of the stars, parasitizing entire worlds to propagate their species. Born into a strict caste system that determines their job and worth from the moment of their birth, most gems have little autonomy to speak of. It takes an incredibly strong-willed gem to break the shackles of its birth, and most are more than happy to live by the purpose for which they are created."
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "type": "image",
+                    "href": {
+                        "type": "external",
+                        "url": "https://static.wikia.nocookie.net/steven-universe/images/3/38/CYM_Pearl_Request_by_RylerGamerDBS.png/revision/latest/scale-to-width-down/1000?cb=20201009210936"
+                    }
+                }
+            ]
+        },
+        "subraces": [
+            {
+                "name": "Aristocratic",
+                "source": "GEMR",
+                "overwrite": {
+                "ability": false
+                }
+            }
+        ]
+	}
+]
