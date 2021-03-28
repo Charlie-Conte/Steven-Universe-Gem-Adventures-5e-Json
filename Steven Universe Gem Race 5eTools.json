@@ -27,7 +27,8 @@
         }],
         "size": "M",
         "speed": 30,
-        "entries": [{
+        "entries": [
+            {
                 "type": "entries",
                 "name": "Age",
                 "entries": [
@@ -52,7 +53,7 @@
                 "type": "entries",
                 "name": "Gem Rebirth",
                 "entries": [
-                    "When you are reduced to 0 hit points, your physical form retreats into your gem. During this time you do not need to make any death saving throws, though attacks upon your gem will result in death saving throw failures as normal. You naturally stabilize after {@dice 4dl2} hours. Your physical body reforms after regaining at least one hit point."
+                    "When you are reduced to 0 hit points, your physical form retreats into your gem. During this time you do not need to make any death saving throws, though attacks upon your gem will result in death saving throw failures as normal. You naturally stabilize after {@dice 4d12} hours. Your physical body reforms after regaining at least one hit point."
                 ]
             },
             {
@@ -101,7 +102,10 @@
             "source": "GEMR",
             "overwrite": {
                 "ability": false
-            }
+            },
+            "ability": [{
+                "cha": 1
+            }]
         }]
     }]
 }
